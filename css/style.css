@@ -1,0 +1,55 @@
+.calcbox {
+	margin: auto;
+	margin-top: 50px;
+	height: 604px;
+	width: 370px;
+	box-shadow: 0 0 10px #808080;
+	border-radius: 10px;
+	border:1px solid #595962;
+	background-color: #302F35;
+
+}
+
+#display{
+	color: #04E492;
+	background-color: #010101;
+	border:1px solid #595962; 
+	border-radius: 10px;
+	margin: 8px 4px 12px;	
+	padding: 10px;
+	height: 94px;
+	width: 360px;
+	font-family: Impact;
+	font-size: 40px;
+	text-align: right;
+	outline: none;	
+}
+.btn{	
+	outline: 0;
+	width:88px; 
+	height: 90px;
+	float: left;
+	font-family: Impact;
+	font-size: 30px;
+	text-align: center;
+	margin: 2px;
+}
+
+#zero {
+	width:180px; 
+}
+
+hr {
+	margin-top: 150px;
+	color: #f2f2f2;
+	box-shadow: 0 2px 5px #000000;
+}
+
+footer {
+	margin: auto;
+	color: #595959;
+	font-family: Impact;
+	font-size: 20px;
+	text-shadow: 2px 2px #bfbfbf;
+	text-align: center;
+}

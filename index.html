@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Calculator Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-4">
+          <div class="calcbox">                
+                  <input type="text" placeholder="0" id="display">
+                  <input type="button" class="btn btn-danger" value="C" onclick="addToDisplay('C')">
+                  <input type="button" class="btn btn-warning" value="&#8592;" onclick="backspace()">
+                  <input type="button" class="btn btn-primary" value="&#8730;" onclick="mathSquare()">
+                  <input type="button" class="btn btn-primary" value="/" onclick="addToDisplay('/')">
+                  <input type="button" class="btn btn-info" value="7" onclick="addToDisplay(7)">
+                  <input type="button" class="btn btn-info" value="8" onclick="addToDisplay(8)">
+                  <input type="button" class="btn btn-info" value="9" onclick="addToDisplay(9)">
+                  <input type="button" class="btn btn-primary" value="*" onclick="addToDisplay('*')">
+                  <input type="button" class="btn btn-info" value="4" onclick="addToDisplay(4)">
+                  <input type="button" class="btn btn-info" value="5" onclick="addToDisplay(5)">
+                  <input type="button" class="btn btn-info" value="6" onclick="addToDisplay(6)">
+                  <input type="button" class="btn btn-primary" value="-" onclick="addToDisplay('-')">
+                  <input type="button" class="btn btn-info" value="1" onclick="addToDisplay(1)">
+                  <input type="button" class="btn btn-info" value="2" onclick="addToDisplay(2)">
+                  <input type="button" class="btn btn-info" value="3" onclick="addToDisplay(3)">
+                  <input type="button" class="btn btn-primary" value="+" onclick="addToDisplay('+')">
+                  <input type="button" class="btn btn-primary" value="." onclick="addToDisplay('.')">
+                  <input type="button" class="btn btn-info" value="0" id="zero" onclick="addToDisplay(0)">
+                  <input type="button" class="btn btn-primary " value="=" onclick="result()">                
+            </div>      
+        </div>                     
+      </div>
+
+      <div class="row">
+          <div class="col-md-12">
+              <hr>
+              <footer>                
+                <p>Calculator &copy; 2016 by 
+                  <a href="https://ua.linkedin.com/in/oleg-zinchenko-300964124" target="_blank" title="My linkedin">Oleg Z.</a>
+                </p>
+              </footer>   
+          </div>
+      </div>
+
+    </div>
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
